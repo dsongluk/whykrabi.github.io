@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700');
+
+.padding-100{
+  padding: 100px 0;
+  text-align: center;
+}
+.appSection {
+  padding-top: 70px;
+  background: url(../img-1/app/bg.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+.wrapper{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin: 0 auto;
+}
+ 
+.heading-box{
+  width: 65%;
+  margin: 0 auto;
+}
+ 
+.heading-box h1{
+  font-size: 40px;
+  margin: 0;
+  color: #fff;
+}
+.app-btn img {
+    width: 22px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    top: 4px;
+}
+.app-btn{
+  background: #182140;
+  border: 0 none;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  outline: 0;
+  padding: 13px 30px;
+  transition: all .3s;
+  display: inline-block;
+  line-height: 29px;
+  margin: 8px
+}
+.app-btn:hover{
+  box-shadow: 0 2px 10px -1px #182140
+}
+.threedbox{
+  position: relative;
+  width: 750px;
+  height: 270px;
+  background: url(../img-1/app/3dbg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 100px auto -150px auto;
+}
+.threedbox img{
+  position: absolute;
+  height: auto;
+  width: 531px;
+  left: 109px;
+  top: 38px;
+  transition: all .5s;
+}
+ 
+.threedbox:hover img:nth-child(4){
+  transform: translate(0px, -110px);
+  transition: all 0.5s;
+  opacity: 1;
+}
+ 
+.threedbox:hover img:nth-child(3){
+  transform: translate(0px, -70px);
+  transition: all 0.5s;
+  opacity: .8;
+}
+ 
+.threedbox:hover img:nth-child(2){
+  transform: translate(0px, -30px);
+  transition: all 0.5s;
+  opacity: .6;
+}
+ 
+.threedbox:hover img:nth-child(1){
+  transform: translate(0px, -10px);
+  transition: all 0.5s;
+  opacity: .4;
+}
+.typed {
+    color: #6fffc8;
+}
+p {
+  font-size: 18px;
+  color: #fff;
+}
