@@ -221,6 +221,13 @@ bootstrap.min.css:5;
   	background-image: url(../img-1/home/location-bg.jpg);
   	vertical-align: middle;
 }
+/* room.html */
+.room-page-content {
+	width: 100%;
+  	padding-top: 35vh;
+  	background-image: url(../img-1/hotel/bg.jpg);
+  	vertical-align: middle;
+}
 /* museum.html */
 .museum-content {
 	width: 100%;

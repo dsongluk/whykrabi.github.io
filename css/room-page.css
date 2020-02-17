@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1091px;
+    height: auto;
+}
+.h-info {
+    margin-top: 50px;
+    width: 70%;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #dcdfe0; 
+
+}
+
+.h-info p {
+    text-align: justify;
+    color: #333;
+    margin-top: 35px;
+
+}
+
+.room-blog {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.room-blog-reverse {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.room-left {
+    width: 100%;
+    padding: 15px 20px;
+    
+}
+.img-box img {
+    width: 100%;
+    height: 330px;
+}
+.room-right {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.room-info {
+    margin-top: 30px;
+    width: 100%;
+    text-align: justify;
+    padding: 0 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dcdfe0; 
+}
+
+.room-info p {
+    color: #333;
+}
+
+.gallery {
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 216px;
+}
+
+
+
+.room-book h4 {
+    margin-top: 20px;
+    padding: 0 10px;
+}
+.agoda img {
+    margin: 15px 20px;
+    width: 47px;
+    height: 24px;
+}
+
+.agoda {
+    width: 100%;
+    margin-top:20px;
+    padding: 0 20px;
+    display: flex;
+}
+
+.agoda-price {
+    display: flex;
+    margin-left: 100px;
+
+}
+
+.agoda-price a {
+    width: 77px;
+    height: 29px;
+    margin-left: 25px;
+    border: 1px solid tomato;
+    border-radius: 3px;
+    padding-top: 4px ;
+    padding-left: 10px;
+    margin-top: 15px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.agoda-price a:hover {
+    color: white;
+    background: tomato;
+}
+
+.booking img {
+    margin: 15px 20px;
+    width: 100px;
+    height: 24px;
+}
+
+.booking {
+    display: flex;
+    margin-left: 20px;
+}
+
+.booking-price {
+    display: flex;
+    margin-left: 48px;
+
+}
+
+.booking-price a {
+    width: 77px;
+    height: 29px;
+    margin-left: 25px;
+    border: 1px solid tomato;
+    border-radius: 3px;
+    padding-top: 4px ;
+    padding-left: 10px;
+    margin-top: 15px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.booking-price a:hover {
+    color: white;
+    background: tomato;
+}
