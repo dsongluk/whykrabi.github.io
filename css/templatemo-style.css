@@ -214,6 +214,13 @@ bootstrap.min.css:5;
   	background-image: url(../img-1/home/whykrabi-bg.jpg);
   	vertical-align: middle;
 }
+/* eat.html */
+.eat-content {
+	width: 100%;
+  	padding-top: 35vh;
+  	background-image: url(../img-1/eat/bg.jpg);
+  	vertical-align: middle;
+}
 /* location.html */
 .location-page-content {
 	width: 100%;

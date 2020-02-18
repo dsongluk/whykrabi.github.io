@@ -5,7 +5,7 @@
 }
 
 .container {
-    width: 1091px;
+    max-width: 1091px;
     height: auto;
 }
 .h-info {
@@ -30,21 +30,15 @@
     grid-template-columns: 60% 40%;
 }
 
-.room-blog-reverse {
-    width: 100%;
-    height: auto;
-    display: grid;
-    grid-template-columns: 60% 40%;
-}
 
 .room-left {
     width: 100%;
-    padding: 15px 20px;
-    
+    padding: 15px 20px; 
 }
+
 .img-box img {
     width: 100%;
-    height: 330px;
+    max-height: 330px;
 }
 .room-right {
     width: 100%;
@@ -156,4 +150,89 @@
 .booking-price a:hover {
     color: white;
     background: tomato;
+}
+
+@media (max-width: 991px){
+
+	.container {
+        width: 100%;
+    }
+
+    .room-blog {
+        grid-template-columns: repeat(1, 1fr);
+    }   
+
+    .room-left {
+        max-width: 100%;
+    }
+
+    .room-right{
+        width: 100%;
+    }
+    .img-box img {
+        width: 100%;
+        height: 430px;
+    }
+
+    .gallery img {
+        width: 100%;
+        height: 280px;
+    }
+
+@media (max-width: 768px){
+    
+    .container {
+        width: 100%;
+    }
+
+    .room-blog {
+        grid-template-columns: repeat(1, 1fr);
+    }   
+
+    .room-left {
+        max-width: 100%;
+    }
+
+    .room-right{
+        width: 100%;
+    }
+
+    .img-box img {
+        width: 100%;
+        height: 430px;
+    }
+
+    .gallery img {
+        width: 100%;
+        height: 200px;
+    }
+	
+}
+
+@media (max-width: 385px){
+    
+    .container {
+        width: 100%;
+    }
+
+    .room-blog {
+        grid-template-columns: repeat(1, 1fr);
+    }   
+
+    .room-left {
+        width: 100%;
+    }
+    .room-right{
+        width: 100%;
+    }
+
+    .img-box img {
+        width: 100%;
+        height: 150px;
+    }
+
+    .gallery img {
+        width: 100%;
+        height: 100px;
+    }
 }
