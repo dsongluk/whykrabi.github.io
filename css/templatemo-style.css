@@ -214,6 +214,13 @@ bootstrap.min.css:5;
   	background-image: url(../img-1/home/whykrabi-bg.jpg);
   	vertical-align: middle;
 }
+/* index.html */
+.otop-page-content {
+	width: 100%;
+  	padding-top: 35vh;
+  	background-image: url(../img-1/otop/unnamed.jpg);
+  	vertical-align: middle;
+}
 /* eat.html */
 .eat-content {
 	width: 100%;
@@ -443,6 +450,7 @@ bootstrap.min.css:5;
 	border: 3px solid #fff;
 	border-radius: 50%;
 	background-color: #f7c552;
+
 }
 
 #about .service-item h4 {
@@ -463,6 +471,8 @@ bootstrap.min.css:5;
 #about .service-item p {
 	color: #fff;
 	margin-top: 30px;
+	text-align: left;
+	text-align: justify;
 }
 
 #about .service-item .primary-blue-button {

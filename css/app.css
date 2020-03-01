@@ -8,7 +8,8 @@
   padding-top: 70px;
   background: url(../img-1/app/bg.jpg);
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
+  width: 100%;
 }
 .wrapper{
   max-width: 1200px;
@@ -66,7 +67,7 @@
 .threedbox img{
   position: absolute;
   height: auto;
-  width: 531px;
+  max-width: 531px;
   left: 109px;
   top: 38px;
   transition: all .5s;
