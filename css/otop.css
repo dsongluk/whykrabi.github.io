@@ -9,17 +9,18 @@
 body {
   background: #fff;
 }
-.wrapper {
+.wrapper-otop {
     width: 100%;
     height: auto;
 }
 
 .blog-grid {
     width: 1000px;
+    height: auto;
     margin: 1% auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(7, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     column-gap: 2rem;
     
 }
